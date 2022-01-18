@@ -1,0 +1,36 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="BeautifulSoup" />
+            <item index="1" class="java.lang.String" itemvalue="unittest" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E303" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.a" />
+          <option value="list.isalpha" />
+          <option value="tuple.__setitem__" />
+          <option value="telebot.TeleBot.message_handler" />
+          <option value="telebot.types" />
+          <option value="WarrenBuffetBot.main.message" />
+          <option value="WarrenBuffetBot.main.context" />
+          <option value="WarrenBuffetBot.main" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
